@@ -5,6 +5,10 @@ class Videos extends Model {
         return 'videos';
     }
 
+    static get idColumn() {
+        return 'postId';
+      }
+
     static get jsonSchema() {
         return {
             type: 'object',

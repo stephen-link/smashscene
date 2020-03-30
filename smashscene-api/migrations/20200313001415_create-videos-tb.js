@@ -1,5 +1,5 @@
 
-exports.up = function(knex) {
+exports.up = async (knex) => {
   return knex.schema.createTable('videos', (table) => {
       table.text('postId');
       table.text('userId');
@@ -7,9 +7,9 @@ exports.up = function(knex) {
       table.text('postTimestamp');
       table.integer('upvotes');
       table.float('score');
-  })
-};
+  });
+}
 
-exports.down = function(knex) {
+exports.down = async (knex) => {
   return knex.schema.dropTable('videos');
-};
+}

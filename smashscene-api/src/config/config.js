@@ -4,5 +4,6 @@ module.exports = {
         database: process.env.database || 'ssdb',
         user: process.env.user || 'postgres',
         password: process.env.password || ''
-    }
+    },
+    
 }

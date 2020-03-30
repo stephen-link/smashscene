@@ -6,7 +6,7 @@ Vue.use(VueRouter)
 
 const routes = [
   {
-    path: '/videos',
+    path: '/',
     name: 'Videos',
     component: VideoView
   },
