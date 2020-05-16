@@ -38,7 +38,7 @@ export default {
   components: { VideoCard },
 
   data: () => ({
-    uploadURL: 'dafaf',
+    uploadURL: '',
     posts: [],
     overlay: false
   }),

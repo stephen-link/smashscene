@@ -14,7 +14,8 @@ exports.seed = function(knex) {
           score: 1.1,
           thumbnailUrl: 'https://i.ytimg.com/vi/q8m4Phc70qA/sddefault.jpg',
           title: 'A video!',
-          creatorName: 'slink'
+          creatorName: 'Vue Guy',
+          uploaderName: 'slink'
         },
         {
           postId: '1', 
@@ -25,7 +26,8 @@ exports.seed = function(knex) {
           score: 1.1,
           thumbnailUrl: 'https://i.ytimg.com/vi/q8m4Phc70qA/sddefault.jpg',
           title: 'A video!',
-          creatorName: 'slink'
+          creatorName: 'Some man',
+          uploaderName: 'slink'
         },
         {
           postId: '1', 
@@ -36,7 +38,8 @@ exports.seed = function(knex) {
           score: 1.1,
           thumbnailUrl: 'https://i.ytimg.com/vi/q8m4Phc70qA/sddefault.jpg',
           title: 'A video!',
-          creatorName: 'slink'
+          creatorName: 'Mann Man',
+          uploaderName: 'Stephen'
         },
         {
           postId: '1', 
@@ -47,7 +50,8 @@ exports.seed = function(knex) {
           score: 1.1,
           thumbnailUrl: 'https://i.ytimg.com/vi/q8m4Phc70qA/sddefault.jpg',
           title: 'A video!',
-          creatorName: 'slink'
+          creatorName: 'slink',
+          uploaderName: 'Yes'
         }
       ]);
     });

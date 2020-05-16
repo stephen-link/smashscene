@@ -2,6 +2,8 @@
   <v-app>
     <v-app-bar dark short app>
       <v-toolbar-title>SmashScene</v-toolbar-title>
+      <v-spacer></v-spacer>
+      <v-img @click="loginClicked" class="mx-0 cursor" contain src='./assets/twitter_sign_in.png' max-height=28 max-width=158></v-img>
     </v-app-bar>
     <v-content class="grey lighten-3">
       <div class="main elevation-1">
@@ -20,25 +22,14 @@ export default {
 
   data: () => ({
     //
-  })
+  }),
+
+  methods: {
+    loginClicked: function () {
+      console.log('yeet yeet')
+    }
+  }
 }
-
-// <template>
-//   <v-app>
-//     <div class="main">
-//       <div>
-//         <v-app-bar dark flat>
-//           <v-toolbar-title>SmashScene</v-toolbar-title>
-//         </v-app-bar>
-//       </div>
-
-//       <div class="main-content">
-//         <router-view></router-view>
-//       </div>
-
-//     </div>
-//   </v-app>
-// </template>
 </script>
 
 <style>
@@ -52,6 +43,10 @@ export default {
     width: 80%;
     background-color: white;
     margin: 0 auto;
+  }
+
+  .cursor {
+    cursor: pointer
   }
 
 </style>

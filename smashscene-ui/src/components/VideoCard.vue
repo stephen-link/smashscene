@@ -5,7 +5,7 @@
     </v-img>
     <v-card-title> {{ post.title }} </v-card-title>
     <v-card-subtitle class="pb-0"> created by: {{ post.creatorName }} </v-card-subtitle>
-    <v-card-text> uploaded by: {{ post.creatorName }} </v-card-text>
+    <v-card-text> uploaded by: {{ post.uploaderName }} </v-card-text>
   </v-card>
 </template>
 
